@@ -1,6 +1,7 @@
 下载脚本
 
-wget -O portainer-ce2.11.1.sh https://raw.githubusercontent.com/twcoin/public/fb9d65cf8b4681d237d0b67d20b1cd7bb7bfb542/portainer-ce.sh && chmod +x portainer-ce2.11.1.sh
+wget -O portainer-ce2.11.1.sh https://raw.githubusercontent.com/twcoin/public/main/portainer-ce.sh && chmod +x portainer-ce2.11.1.sh
+
 
 运行脚本
 ./portainer-ce2.11.1.sh
