@@ -3,8 +3,12 @@
 wget -O portainer-ce2.11.1.sh https://raw.githubusercontent.com/twcoin/public/main/portainer-ce.sh && chmod +x portainer-ce2.11.1.sh
 
 
+wget -O change-mirrors.sh https://gitee.com/SuperManito/LinuxMirrors/raw/main/ChangeMirrors.sh && chmod +x change-mirrors.sh
+
 运行脚本
 ./portainer-ce2.11.1.sh
+
+
 
 
 
