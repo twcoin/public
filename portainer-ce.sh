@@ -7,8 +7,8 @@ ip=$(ifconfig | grep "inet addr" | awk '{ print $2}' | awk -F: '{print $2}' | aw
 if [[ ! -n "$ip" ]]; then
     ip="你的路由器IP"
 fi
-#默认安装目录/home/user/docker/portainer
-name=/home/user/docker/portainer
+#默认安装目录/root/docker
+name=/root/docker
 #默认安装端口
 nport=9000
 clear
