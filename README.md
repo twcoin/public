@@ -5,6 +5,10 @@ wget -O portainer-ce2.11.1.sh https://raw.githubusercontent.com/twcoin/public/ma
 
 wget -O change-mirrors.sh https://gitee.com/SuperManito/LinuxMirrors/raw/main/ChangeMirrors.sh && chmod +x change-mirrors.sh
 
+wget -O docker-install.sh https://gitee.com/SuperManito/LinuxMirrors/raw/main/DockerInstallation.sh && chmod +x docker-install.sh
+
+
+
 运行脚本
 ./portainer-ce2.11.1.sh
 
